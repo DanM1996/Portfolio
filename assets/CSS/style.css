@@ -166,3 +166,16 @@ br {
     display: block;
     margin: 10px 0;
 }
+@media screen and (max-width: 980px) {
+    header{
+        padding-bottom: 0;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        padding: 20px;
+    }
+    header h1 {
+        text-align: center;
+        width: 100%;
+    }
+}
